@@ -114,7 +114,7 @@ smart-grid-fault-ann/
 
 ```bash
 # 1. clone
-git clone https://github.com/yourusername/smart-grid-fault-ann.git
+git clone https://github.com/shivi5906/smart-grid-fault-ann.git
 cd smart-grid-fault-ann
 
 # 2. install
