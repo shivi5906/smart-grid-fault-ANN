@@ -68,7 +68,7 @@ Alert fires only when rolling average of last 5 predictions > 0.70
 
 | Layer | Technology |
 |---|---|
-| Model | TensorFlow / Keras |
+| Model | TensorFlow |
 | API | FastAPI |
 | Data | Pandas · NumPy · Scikit-learn |
 | Visualization | Matplotlib · Seaborn |
@@ -168,13 +168,13 @@ The API streams predictions row by row, applies the rolling window, and updates 
 | F1 Score | ~96% |
 | ROC-AUC | ~99% |
 
-> Replace these with your actual scores after training.
+
 
 ---
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/smart-grid-fault-ann&type=Date)](https://star-history.com/#yourusername/smart-grid-fault-ann&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/smart-grid-fault-ann&type=Date)](https://star-history.com/shivi5906/smart-grid-fault-ann&Date)
 
 ---
 
@@ -186,4 +186,4 @@ The API streams predictions row by row, applies the rolling window, and updates 
 
 ---
 
-<p align="center">Built with 🖤 by <a href="https://github.com/yourusername">Masked Dev</a></p>
+<p align="center">Built with 🖤 by <a href="https://github.com/shivi5906">Masked Dev</a></p>
