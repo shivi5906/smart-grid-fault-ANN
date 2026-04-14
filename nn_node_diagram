@@ -1,0 +1,56 @@
+digraph {
+	rankdir=LR
+	I0 [label=I0]
+	I1 [label=I1]
+	I2 [label=I2]
+	I3 [label=I3]
+	I4 [label=I4]
+	I5 [label=I5]
+	H1_0 [label=H1_0]
+	H1_1 [label=H1_1]
+	H1_2 [label=H1_2]
+	H1_3 [label=H1_3]
+	H2_0 [label=H2_0]
+	H2_1 [label=H2_1]
+	H2_2 [label=H2_2]
+	O [label=Output]
+	I0 -> H1_0
+	I0 -> H1_1
+	I0 -> H1_2
+	I0 -> H1_3
+	I1 -> H1_0
+	I1 -> H1_1
+	I1 -> H1_2
+	I1 -> H1_3
+	I2 -> H1_0
+	I2 -> H1_1
+	I2 -> H1_2
+	I2 -> H1_3
+	I3 -> H1_0
+	I3 -> H1_1
+	I3 -> H1_2
+	I3 -> H1_3
+	I4 -> H1_0
+	I4 -> H1_1
+	I4 -> H1_2
+	I4 -> H1_3
+	I5 -> H1_0
+	I5 -> H1_1
+	I5 -> H1_2
+	I5 -> H1_3
+	H1_0 -> H2_0
+	H1_0 -> H2_1
+	H1_0 -> H2_2
+	H1_1 -> H2_0
+	H1_1 -> H2_1
+	H1_1 -> H2_2
+	H1_2 -> H2_0
+	H1_2 -> H2_1
+	H1_2 -> H2_2
+	H1_3 -> H2_0
+	H1_3 -> H2_1
+	H1_3 -> H2_2
+	H2_0 -> O
+	H2_1 -> O
+	H2_2 -> O
+}

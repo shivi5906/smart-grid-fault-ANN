@@ -1,0 +1,66 @@
+digraph {
+	rankdir=LR splines=curved
+	node [fontname=Helvetica shape=circle style=filled]
+	{
+		rank=same
+		I0 [label=I0 fillcolor="#A8DADC"]
+		I1 [label=I1 fillcolor="#A8DADC"]
+		I2 [label=I2 fillcolor="#A8DADC"]
+		I3 [label=I3 fillcolor="#A8DADC"]
+		I4 [label=I4 fillcolor="#A8DADC"]
+		I5 [label=I5 fillcolor="#A8DADC"]
+	}
+	{
+		rank=same
+		H1_0 [label="" fillcolor="#457B9D"]
+		H1_1 [label="" fillcolor="#457B9D"]
+		H1_2 [label="" fillcolor="#457B9D"]
+		H1_3 [label="" fillcolor="#457B9D"]
+	}
+	{
+		rank=same
+		H2_0 [label="" fillcolor="#1D3557"]
+		H2_1 [label="" fillcolor="#1D3557"]
+		H2_2 [label="" fillcolor="#1D3557"]
+	}
+	O [label=Output fillcolor="#E63946"]
+	I0 -> H1_0 [color=gray penwidth=0.5]
+	I0 -> H1_1 [color=gray penwidth=0.5]
+	I0 -> H1_2 [color=gray penwidth=0.5]
+	I0 -> H1_3 [color=gray penwidth=0.5]
+	I1 -> H1_0 [color=gray penwidth=0.5]
+	I1 -> H1_1 [color=gray penwidth=0.5]
+	I1 -> H1_2 [color=gray penwidth=0.5]
+	I1 -> H1_3 [color=gray penwidth=0.5]
+	I2 -> H1_0 [color=gray penwidth=0.5]
+	I2 -> H1_1 [color=gray penwidth=0.5]
+	I2 -> H1_2 [color=gray penwidth=0.5]
+	I2 -> H1_3 [color=gray penwidth=0.5]
+	I3 -> H1_0 [color=gray penwidth=0.5]
+	I3 -> H1_1 [color=gray penwidth=0.5]
+	I3 -> H1_2 [color=gray penwidth=0.5]
+	I3 -> H1_3 [color=gray penwidth=0.5]
+	I4 -> H1_0 [color=gray penwidth=0.5]
+	I4 -> H1_1 [color=gray penwidth=0.5]
+	I4 -> H1_2 [color=gray penwidth=0.5]
+	I4 -> H1_3 [color=gray penwidth=0.5]
+	I5 -> H1_0 [color=gray penwidth=0.5]
+	I5 -> H1_1 [color=gray penwidth=0.5]
+	I5 -> H1_2 [color=gray penwidth=0.5]
+	I5 -> H1_3 [color=gray penwidth=0.5]
+	H1_0 -> H2_0 [color=gray penwidth=0.5]
+	H1_0 -> H2_1 [color=gray penwidth=0.5]
+	H1_0 -> H2_2 [color=gray penwidth=0.5]
+	H1_1 -> H2_0 [color=gray penwidth=0.5]
+	H1_1 -> H2_1 [color=gray penwidth=0.5]
+	H1_1 -> H2_2 [color=gray penwidth=0.5]
+	H1_2 -> H2_0 [color=gray penwidth=0.5]
+	H1_2 -> H2_1 [color=gray penwidth=0.5]
+	H1_2 -> H2_2 [color=gray penwidth=0.5]
+	H1_3 -> H2_0 [color=gray penwidth=0.5]
+	H1_3 -> H2_1 [color=gray penwidth=0.5]
+	H1_3 -> H2_2 [color=gray penwidth=0.5]
+	H2_0 -> O [color=gray penwidth=0.5]
+	H2_1 -> O [color=gray penwidth=0.5]
+	H2_2 -> O [color=gray penwidth=0.5]
+}

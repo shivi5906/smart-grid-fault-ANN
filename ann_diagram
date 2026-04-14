@@ -1,0 +1,19 @@
+digraph {
+	A [label="Input (12)"]
+	B [label="Dense 128
+ReLU"]
+	C [label="Dropout 0.3"]
+	D [label="Dense 64
+ReLU"]
+	E [label="Dropout 0.2"]
+	F [label="Dense 32
+ReLU"]
+	G [label="Output 1
+Sigmoid"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+}
